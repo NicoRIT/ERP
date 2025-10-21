@@ -1,0 +1,57 @@
+/* Courses Page Styling */
+.courses-container {
+    text-align: center;
+    padding: 20px;
+    margin-left: 220px; /* Reduce margin to balance alignment */
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Use CSS Grid to Align Course Cards Properly */
+  .course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust layout */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: auto; /* Center the grid */
+  }
+  
+  /* Course Card */
+  .course-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+  }
+  
+  /* Hover Effect */
+  .course-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Course Icon */
+  .course-icon {
+    font-size: 40px;
+    color: #0056b3;
+    margin-bottom: 10px;
+  }
+  
+  /* Course Instructor */
+  .icon {
+    margin-right: 5px;
+    color: #0056b3;
+  }
+  
+  .loading {
+    font-size: 18px;
+    color: #666;
+  }
+  
